@@ -10,7 +10,7 @@ If your local computer is a **Windows** machine I recommend that you get Virtual
 
 You will need the following:
 
-  * A Heroku account
+  * A [Heroku](https://www.heroku.com/) account
   * [Oracle VM VirtualBox](https://www.virtualbox.org/) **Please note:** If you have antivirus applications like Avira installed on your PC, you might not be able to start up the virtual machine (error code 0x80004005). In this case you'll probably have to downgrade to [VirtualBox Version 4.3.12](https://www.virtualbox.org/wiki/Download_Old_Builds) or earlier.
   * A recent Debian/Ubuntu image. I used the latest Ubuntu image from http://www.osboxes.org/ubuntu/
 
