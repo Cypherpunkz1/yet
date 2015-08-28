@@ -31,4 +31,4 @@ Here's what you do:
     * `sudo apt-get install zlib1g-dev` (via http://www.nokogiri.org/tutorials/installing_nokogiri.html)
     * `sudo apt-get install libmysqlclient-dev` (via http://stackoverflow.com/a/3608756)
 1. Now run `bundle`. It might not complete successfully at the first attempt but it should always tell you a command to execute at the very bottom of any error message. In such case, run the specified command and afterwards run `bundle` again.
-1. After you've ultimately run setup script at `bin/setup_heroku`, your installation should be ready.
+1. After you've ultimately run the setup script at `bin/setup_heroku`, your installation should be ready.
