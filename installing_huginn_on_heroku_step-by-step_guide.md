@@ -2,8 +2,8 @@
 
 **Please note:**
 
-1. I'm **not an expert** on any of this and I had **never** previously worked with Heroku, Ruby or Huginn. I'm just posting this here in the hope that it might be helpful for someone.
-1. Before you begin make sure you've read the official installation instructions at
+  * I'm **not an expert** on any of this and I had **never** previously worked with Heroku, Ruby or Huginn. I'm just posting this here in the hope that it might be helpful for someone.
+  * Before you begin make sure you've read the official installation instructions at
 https://github.com/cantino/huginn/wiki/Run-Huginn-for-free-on-Heroku
 
 ---
