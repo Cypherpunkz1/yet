@@ -1,3 +1,5 @@
+# Installing Huginn on Heroku (Step-by-step guide for Windows users) 
+
 **Please note:**
 
 1. I'm **not an expert** on any of this and I had **never** previously worked with Heroku, Ruby or Huginn. I'm just posting this here in the hope that it might be helpful for someone.
