@@ -34,3 +34,8 @@ Here's what you do:
     * `sudo apt-get install libmysqlclient-dev` (via http://stackoverflow.com/a/3608756)
 1. Now run `bundle`. It might not complete successfully at the first attempt but it should always tell you a command to execute at the very bottom of any error message. In such case, run the specified command and afterwards run `bundle` again.
 1. After you've ultimately run the setup script at `bin/setup_heroku`, your installation should be ready.
+
+## Some configuration tips
+  * If you create agents that are very complex or produce many events on each run, you'll probably have to increase the **maximum agent run time** (defaults to 3 minutes). To do this set the ```DELAYED_JOB_MAX_RUNTIME``` config variable either from the terminal using ```heroku config:set DELAYED_JOB_MAX_RUNTIME=5``` or using the Heroku Dashboard on the web.
+  * Also if you want to use event **retention periods** of less the 6 hours (i.e. 1 hour) you need to decrease the value of  ```EVENT_EXPIRATION_CHECK``` (defaults to 6 hours) to 1 hour or less. Run ```heroku config:set EVENT_EXPIRATION_CHECK=1h``` from the terminal or set it using the Heroku Dashboard.
+  * If you live anywhere in the world but the US east coast you might want to adjust Huginn's **time zone** setting accordingly. First determine the value by running ```rake time:zones:all``` from the terminal (you might have to install *multi_json* first) and finding the appropriate city name from the list. Then set the ```TIMEZONE``` config variable to that value.
